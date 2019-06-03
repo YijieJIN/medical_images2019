@@ -1,4 +1,4 @@
-# Medical Imagee Processing	
+# Medical Image Processing	
 
 Below are some tutorials for deep learning. I put the links here instead of on Bitbucket in case someone has no access to Bitbucket yet.
 
