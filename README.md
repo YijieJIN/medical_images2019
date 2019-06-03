@@ -2,9 +2,7 @@
 
 Below are some tutorials for deep learning.
 
-1. http://neuralnetworksanddeeplearning.com/index.html 
-
-This is a free online book teaching you neural networks and deep learning.
+1. http://neuralnetworksanddeeplearning.com/index.html </br>This is a free online book teaching you neural networks and deep learning.
 2. https://zhuanlan.zhihu.com/p/22493551 This is a tutorial in Chinese on Zhihu telling some basic concepts of CNN, such as pooling layer, activation function and etc.
 3. https://adeshpande3.github.io/adeshpande3.github.io/A-Beginner%27s-Guide-To-Understanding-Convolutional-Neural-Networks/ This is a tutorial written by an undergraduate student in UCLA. I think it provides clear explanation of how neural network works for image processing intuitively. It could be a good reference.
 4. https://elitedatascience.com/keras-tutorial-deep-learning-in-python It is a tutorial of implementing neural networks with Keras, including installing Keras. 
