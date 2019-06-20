@@ -37,7 +37,7 @@ source activate # enter base environment
 conda create -y -n <env_name> python=3.7.3
 conda activate <env_name> # enter your own conda environment (the newly created one)
 ```
-  Now you could install packages in your own conda environment
+* Now you could install packages in your own conda environment
 
 ```bash
 conda install <package_name> # install packages
