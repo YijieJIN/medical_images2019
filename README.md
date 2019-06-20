@@ -12,3 +12,33 @@ This is a free online book teaching you neural networks and deep learning.
 7. https://keras.io/ </br> This is the documentation for Keras. Keras is an interface based on Tensorflow, Theano or Pytorch backends. It is much easier to implement a neural network with Keras. Basically you only need to add the layers sequentially and load the data to train it.
 8. https://www.tensorflow.org/tutorials/</br> This is a tutorial provided by Tensorflow about how to get start with it. 
  
+---
+## Use Python on Bridges
+* Use ssh to access bridges
+```bash
+ssh -l <username> login.xsede.org
+gsissh bridges
+```
+
+* Use GPU
+```bash
+interact -gpu --egress # add --egress so that it could access external network
+```
+
+* Enter Anaconda Environment
+```
+module list # check modules loaded
+module add Anaconda3/2019.03
+source activate # enter base environment
+```
+
+* Custormize your own Anaconda environment with Python3 as default Python
+```bash
+conda create -y -n <env_name> python=3.7.3
+conda activate <env_name> # enter your own conda environment (the newly created one)
+```
+Now you could install packages in your own conda environment
+
+```bash
+conda install <package_name> # install packages
+```
